@@ -27,3 +27,13 @@ bot.onText(/\/list/, async (msg, match) => {
     const res = await listTodo()
     bot.sendMessage(msg.chat.id, res? res: "List is empty");
 })
+
+bot.onText(/\/sequence/, async (msg, match) => {
+  let res = "Cleaning Sequence \n\n"
+  res += "1. Ashish Patel\n"
+  res += "2. Jai\n"
+  res += "3. Parag\n"
+  res += "4. Shounak\n"
+  res += "5. Shubham\n"
+  bot.sendMessage(msg.chat.id, res);
+})
