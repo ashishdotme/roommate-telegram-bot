@@ -4,11 +4,11 @@ dotenv.config()
 let todos: string[] = []
 
 async function listTodo() {
-    try {
-        return todos.join()
-    } catch (error) {
-        console.error("Failed")
-    }
+  try {
+      return todos.join()
+  } catch (error) {
+      console.error("Failed")
+  }
 }
 
 async function clearList() {
