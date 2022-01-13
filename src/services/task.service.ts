@@ -24,7 +24,7 @@ export const getPastTasks = async () => {
     return items.results.map((list: any)=>{
         const properties = JSON.parse(JSON.stringify(list.properties))
         return `${properties.name.title[0].text.content} - ${properties.person.rich_text[0].text.content} - Completed on ${dayjs(properties.date.date.start).format('DD/MMM/YYYY')}`
-    }).reduce((prev: any, curr: any)=> `${prev}\n${curr}`)
+    }).reduce((prev: any, curr: any)=> `${prev}\n\n${curr}`)
   } catch (e) {
     console.log(e)
   }
