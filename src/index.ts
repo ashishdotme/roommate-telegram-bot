@@ -71,9 +71,8 @@ bot.onText(/\/seq (.+)/, async (msg, match) => {
 
 bot.onText(/\/done (.+) (.+)/, async (msg, match) => {
   let currentList = await currentTasks()
-  //await updateCurrentTasks(currentList)
   const taskNum: string = match![1]
-  const name: string = match![2]
+  const name: string = match![2].toLowerCase()
   try {
     if (!ids[name]) {
       bot.sendMessage(msg.chat.id, 'No user found')
