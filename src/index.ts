@@ -45,8 +45,10 @@ bot.onText(/\/list/, async (msg, match) => {
   let mes = 'Current Turn \n'
   mes += '-----------------------------------\n\n'
   let list = await currentTasks()
+  let count = 1
   for (let [key, value] of Object.entries(list)) {
-    mes += `${res[key]}  -  ${_.capitalize(value as any)} \n`
+    mes += `${count}. ${res[key]}  -  ${_.capitalize(value as any)} \n`
+    count += 1
   }
   mes += '\nPrevious turns \n'
   mes += '-----------------------------------\n\n'
