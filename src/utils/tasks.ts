@@ -6,8 +6,8 @@ export const res: Tasks = {
   '1': ['Kitchen floor cleaning [daily]'],
   '2': ['Kitchen utensils arrangement [daily]'],
   '3': ['Kitchen Top cleaning [daily]'],
-  '4': ['Hall passage vaccum [biweekly]'],
-  '5': ['Hall passage mop [biweekly]'],
+  '4': ['Hall passage vaccum and mop [biweekly]'],
+  '5': ['To be removed'],
   '6': ['Hall table cleaning [biweekly]'],
   '7': ['Throw Trash Can']
 }
