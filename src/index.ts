@@ -87,7 +87,6 @@ bot.onText(/\/done (.+) (.+)/, async (msg, match) => {
     }
     const task = tasks[taskNum]
     const currentPerson = currentList[taskNum]
-    if (ids[name] == msg.from?.id) {
       if (name == currentPerson) {
         currentList[taskNum] = task[currentIndex]
         bot.sendMessage(
@@ -112,9 +111,6 @@ bot.onText(/\/done (.+) (.+)/, async (msg, match) => {
       } else {
         bot.sendMessage(msg.chat.id, `${_.capitalize(name)} it's not your turn for ${res[taskNum]}`)
       }
-    } else {
-      bot.sendMessage(msg.chat.id, `You are not ${name}`)
-    }
   } catch (e) {
     bot.sendMessage(msg.chat.id, 'Wrong input')
   }
