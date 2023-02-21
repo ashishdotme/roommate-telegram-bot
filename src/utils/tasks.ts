@@ -3,23 +3,23 @@ type Tasks = {
 }
 
 export const res: Tasks = {
-  '1': ['Kitchen floor cleaning [daily]'],
-  '2': ['Kitchen utensils arrangement [daily]'],
-  '3': ['Kitchen Top cleaning [daily]'],
-  '4': ['Hall passage vaccum and mop [biweekly]'],
-  '5': ['Fridge, Microwave, Oven'],
-  '6': ['Hall table cleaning [biweekly]'],
+  '1': ['Fridge'],
+  '2': ['Kitchen utensils arrangement'],
+  '3': ['Kitchen Top cleaning'],
+  '4': ['Hall passage vaccum and mop'],
+  '5': ['Microwave, Oven'],
+  '6': ['Hall table cleaning'],
   '7': ['Throw Trash Can']
 }
 
 export const tasks: Tasks = {
-  '1': ['shounak', 'ashish', 'jai', 'parag', 'shubham'],
-  '2': ['parag', 'jai', 'ashish', 'shounak', 'shubham'],
-  '3': ['shubham', 'ashish', 'shounak', 'jai', 'parag'],
-  '4': ['jai', 'shubham', 'ashish', 'parag', 'shounak'],
-  '5': ['shubham', 'parag', 'ashish', 'shounak', 'jai'],
-  '6': ['ashish', 'jai', 'parag', 'shubham', 'shounak'],
-  '7': ['ashish', 'shubham', 'shounak', 'jai', 'parag']
+  '1': ['ashish', 'anushka', 'parag', 'shounak'],
+  '2': ['shounak', 'parag', 'ashish', 'anushka'],
+  '3': ['parag', 'anushka', 'ashish', 'shounak'],
+  '4': ['shounak', 'parag', 'anushka', 'ashish'],
+  '5': ['parag', 'ashish', 'shounak', 'anushka'],
+  '6': ['shounak', 'anushka', 'ashish', 'parag'],
+  '7': ['anushka', 'parag', 'shounak', 'ashish']
 }
 
 type id = {

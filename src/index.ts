@@ -118,7 +118,7 @@ bot.onText(/\/done (.+) (.+)/, async (msg, match) => {
 
 bot.onText(/\/tasks/, async (msg, match) => {
   let mes = 'Responsibilities \n\n'
-  mes += '1. Kitchen floor cleaning\n'
+  mes += '1. Fridge\n'
   mes += '2. Utensils arrangement\n'
   mes += '3. Kitchen Top cleaning\n'
   mes += '4. Hall and passage vaccum\n'
