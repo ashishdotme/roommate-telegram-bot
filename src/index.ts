@@ -80,7 +80,7 @@ bot.onText(/\/done (.+) (.+)/, async (msg, match) => {
       return
     }
     let currentIndex = tasks[taskNum].findIndex((x) => x == name)
-    if (currentIndex == 4) {
+    if (currentIndex == 3) {
       currentIndex = 0
     } else {
       currentIndex += 1
