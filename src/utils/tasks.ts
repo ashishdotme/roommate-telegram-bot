@@ -27,8 +27,7 @@ type id = {
 }
 export const ids: id = {
   'ashish': 2065533812,
-  'jai': 1088179722,
+  'anushka': 1088179722,
   'parag': 1253791592,
-  'shounak': 902218597,
-  'shubham': 1041510075,
+  'shounak': 902218597
 }
